@@ -126,7 +126,7 @@ A four-phase attack was executed against the victim's web application (`192.168.
 
 The complete 24-page report — including every configuration step, screenshot, Burp Suite request/response pair, Hydra output, and the full attack narrative — is available here:
 
-📄 **[report.pdf](./report.pdf)**
+📄 **[NS-M1.pdf](./NS-M1.pdf)**
 
 <br>
 
