@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./image/cover1.png" alt="Module 01 — Network Segmentation & Web App Attack Simulation" width="100%" />
+<img src="./images/cover1.png" alt="Module 01 — Network Segmentation & Web App Attack Simulation" width="100%" />
 
 <br><br>
 
