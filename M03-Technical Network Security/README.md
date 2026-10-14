@@ -30,7 +30,7 @@
 
 ## Executive Summary
 
-Module 3 builds directly on the Active Directory environment (`crack.local`) established in **[Module 2](../M02-AdministrativeNetworkSecurity/)**, extending it with technical network security controls. Three new virtual machines were introduced — **VPN01**, **IDS01**, and **ATTACK01** — to deliver network segmentation, protocol hardening, TLS enforcement, an enterprise Certificate Authority, a site-accessible VPN, an intrusion detection system, and enhanced endpoint logging.
+Module 3 builds directly on the Active Directory environment (`crack.local`) established in **[Module 2](../M02-Administrative%20Network%20Security/)**, extending it with technical network security controls. Three new virtual machines were introduced — **VPN01**, **IDS01**, and **ATTACK01** — to deliver network segmentation, protocol hardening, TLS enforcement, an enterprise Certificate Authority, a site-accessible VPN, an intrusion detection system, and enhanced endpoint logging.
 
 Every control was validated through live, controlled attacks launched from ATTACK01: reconnaissance, an EternalBlue/SMBv1 exposure check, brute-force lockout testing, LLMNR poisoning, VPN access testing, and TLS version verification — confirming each hardening measure actually holds under attack rather than just being configured.
 
