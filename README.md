@@ -45,45 +45,45 @@ Each module lives in its own directory — complete with a dedicated README, the
 <table>
 <tr><th>#</th><th>Module</th><th>Focus</th><th>Core Tools</th></tr>
 
-<tr><td>01</td><td><a href="./Module-01-Network-Segmentation/">Network Segmentation & Web App Attack Simulation</a></td><td>pfSense firewall, reconnaissance, SQL injection, stored XSS, brute force</td><td><code>pfSense</code> <code>Nmap</code> <code>Burp Suite</code> <code>Hydra</code></td></tr>
+<tr><td>01</td><td><a href="./M01-Network%20Attack%20%26%20Defense%20Strategies/">Network Segmentation & Web App Attack Simulation</a></td><td>pfSense firewall, reconnaissance, SQL injection, stored XSS, brute force</td><td><code>pfSense</code> <code>Nmap</code> <code>Burp Suite</code> <code>Hydra</code></td></tr>
 
-<tr><td>02</td><td><a href="./Module-02-Active-Directory/">Active Directory Infrastructure & Admin Security</a></td><td>AD DS, OU structure, GPO policies, RBAC, privileged access, endpoint monitoring</td><td><code>Active Directory</code> <code>GPO</code> <code>Lansweeper</code> <code>PAM360</code> <code>SpyAgent</code></td></tr>
+<tr><td>02</td><td><a href="./M02-Administrative%20Network%20Security/">Active Directory Infrastructure & Admin Security</a></td><td>AD DS, OU structure, GPO policies, RBAC, privileged access, endpoint monitoring</td><td><code>Active Directory</code> <code>GPO</code> <code>Lansweeper</code> <code>PAM360</code> <code>SpyAgent</code></td></tr>
 
-<tr><td>03</td><td><a href="./Module-03-Technical-Network-Security/">Technical Network Security</a></td><td>Protocol hardening, PKI (AD CS), VPN, IDS, enhanced logging</td><td><code>AD CS</code> <code>SoftEther VPN</code> <code>Suricata</code> <code>Sysmon</code></td></tr>
+<tr><td>03</td><td><a href="./M03-Technical%20Network%20Security/">Technical Network Security</a></td><td>Protocol hardening, PKI (AD CS), VPN, IDS, enhanced logging</td><td><code>AD CS</code> <code>SoftEther VPN</code> <code>Suricata</code> <code>Sysmon</code></td></tr>
 
-<tr><td>04</td><td><a href="./Module-04-Perimeter-Network-Security/">Perimeter Network Security</a></td><td>Centralized gateway firewall rules, 8-scenario attack validation</td><td><code>pfSense</code> <code>Suricata</code></td></tr>
+<tr><td>04</td><td><a href="./M04-Network%20Perimeter%20Security/">Perimeter Network Security</a></td><td>Centralized gateway firewall rules, 8-scenario attack validation</td><td><code>pfSense</code> <code>Suricata</code></td></tr>
 
-<tr><td>05</td><td><a href="./Module-05-Endpoint-Security/">Endpoint Security for Windows Systems</a></td><td>RBAC file shares, security baselines, SIEM, automated active response</td><td><code>Wazuh</code> <code>BatchPatch</code> <code>LGPO</code> <code>MITRE ATT&CK</code></td></tr>
+<tr><td>05</td><td><a href="./M05-Endpoint%20Security-Windows%20System/">Endpoint Security for Windows Systems</a></td><td>RBAC file shares, security baselines, SIEM, automated active response</td><td><code>Wazuh</code> <code>BatchPatch</code> <code>LGPO</code> <code>MITRE ATT&CK</code></td></tr>
 
-<tr><td>06</td><td><a href="./Module-06-Linux-Hardening/">Linux System Hardening & Security Operations</a></td><td>SSH hardening, password policy, auditing, malware scanning, automation</td><td><code>Lynis</code> <code>rkhunter</code> <code>AuditD</code> <code>ClamAV</code></td></tr>
+<tr><td>06</td><td><a href="./M06-Endpoint%20Security-Linux%20System/">Linux System Hardening & Security Operations</a></td><td>SSH hardening, password policy, auditing, malware scanning, automation</td><td><code>Lynis</code> <code>rkhunter</code> <code>AuditD</code> <code>ClamAV</code></td></tr>
 
-<tr><td>07</td><td><a href="./Module-07-Mobile-Device-Security/">Mobile Device Security</a></td><td>Mobile malware detection, enterprise device management</td><td><code>Emsisoft Mobile Security</code> <code>Bitdefender Central</code></td></tr>
+<tr><td>07</td><td><a href="./M07-Endpoint%20Security-%20Mobile%20Devices/">Mobile Device Security</a></td><td>Mobile malware detection, enterprise device management</td><td><code>Emsisoft Mobile Security</code> <code>Bitdefender Central</code></td></tr>
 
-<tr><td>08</td><td><a href="./Module-08-IoT-Security/">IoT Security</a></td><td>MQTT communication, traffic analysis, TLS encryption, custom PKI</td><td><code>Bevywise MQTT</code> <code>Wireshark</code> <code>OpenSSL</code></td></tr>
+<tr><td>08</td><td><a href="./M08-Endpoint%20Security-IoT%20Devices/">IoT Security</a></td><td>MQTT communication, traffic analysis, TLS encryption, custom PKI</td><td><code>Bevywise MQTT</code> <code>Wireshark</code> <code>OpenSSL</code></td></tr>
 
-<tr><td>09</td><td><a href="./Module-09-Application-Security/">Administrative Application Security</a></td><td>Application whitelisting, sandboxing, web request filtering</td><td><code>AppLocker</code> <code>SRP</code> <code>Firejail</code> <code>Sandboxie-Plus</code></td></tr>
+<tr><td>09</td><td><a href="./M09-Administrative%20Application%20Security/">Administrative Application Security</a></td><td>Application whitelisting, sandboxing, web request filtering</td><td><code>AppLocker</code> <code>SRP</code> <code>Firejail</code> <code>Sandboxie-Plus</code></td></tr>
 
-<tr><td>10</td><td><a href="./Module-10-Data-Security/">Data Security (3 Volumes)</a></td><td>Encryption at rest and in transit, secure backup, file and disk recovery</td><td><code>VeraCrypt</code> <code>SQL Server TDE</code> <code>PGP</code> <code>BitLocker</code> <code>EaseUS</code></td></tr>
+<tr><td>10</td><td><a href="./M10-Data%20Security/">Data Security (3 Volumes)</a></td><td>Encryption at rest and in transit, secure backup, file and disk recovery</td><td><code>VeraCrypt</code> <code>SQL Server TDE</code> <code>PGP</code> <code>BitLocker</code> <code>EaseUS</code></td></tr>
 
-<tr><td>11</td><td><a href="./Module-11-Virtual-Network-Security/">Enterprise Virtual Network Security</a></td><td>Container host hardening, SDN topology, controller SSL security</td><td><code>Docker-Bench-Security</code> <code>Mininet</code> <code>OpenFlow</code></td></tr>
+<tr><td>11</td><td><a href="./M11-Enterprise%20Virtual%20Network%20Security/">Enterprise Virtual Network Security</a></td><td>Container host hardening, SDN topology, controller SSL security</td><td><code>Docker-Bench-Security</code> <code>Mininet</code> <code>OpenFlow</code></td></tr>
 
-<tr><td>12</td><td><a href="./Module-12-Cloud-Network-Security/">Enterprise Cloud Network Security</a></td><td>IAM, KMS encryption, NACL segmentation, EC2, Azure Entra ID</td><td><code>AWS (IAM/KMS/EC2)</code> <code>Microsoft Azure</code></td></tr>
+<tr><td>12</td><td><a href="./M12-Enterprise%20Cloud%20Network%20Security/">Enterprise Cloud Network Security</a></td><td>IAM, KMS encryption, NACL segmentation, EC2, Azure Entra ID</td><td><code>AWS (IAM/KMS/EC2)</code> <code>Microsoft Azure</code></td></tr>
 
-<tr><td>13</td><td><a href="./Module-13-Wireless-Network-Security/">Enterprise Wireless Network Security</a></td><td>WPA2 encryption, MAC filtering, router hardening</td><td><code>Linksys EA6200</code></td></tr>
+<tr><td>13</td><td><a href="./M13-Enterprise%20Wireless%20Network%20Security/">Enterprise Wireless Network Security</a></td><td>WPA2 encryption, MAC filtering, router hardening</td><td><code>Linksys EA6200</code></td></tr>
 
-<tr><td>14</td><td><a href="./Module-14-Traffic-Monitoring/">Network Traffic Monitoring & Analysis</a></td><td>Packet capture, attack detection, enterprise monitoring platforms</td><td><code>Wireshark</code> <code>tcpdump</code> <code>Cain & Abel</code> <code>PRTG</code> <code>Zabbix</code></td></tr>
+<tr><td>14</td><td><a href="./M14-Network%20Traffic%20Monitoring%20and%20Analysis/">Network Traffic Monitoring & Analysis</a></td><td>Packet capture, attack detection, enterprise monitoring platforms</td><td><code>Wireshark</code> <code>tcpdump</code> <code>Cain & Abel</code> <code>PRTG</code> <code>Zabbix</code></td></tr>
 
-<tr><td>15</td><td><a href="./Module-15-Log-Monitoring/">Network Logs Monitoring & Analysis</a></td><td>Windows event auditing, IIS logging, centralized SIEM</td><td><code>Splunk Enterprise</code> <code>New Relic</code></td></tr>
+<tr><td>15</td><td><a href="./M15-Network%20Logs%20Monitoring%20and%20Analysis/">Network Logs Monitoring & Analysis</a></td><td>Windows event auditing, IIS logging, centralized SIEM</td><td><code>Splunk Enterprise</code> <code>New Relic</code></td></tr>
 
-<tr><td>16</td><td><a href="./Module-16-Incident-Response-Forensics/">Incident Response & Forensics Investigation</a></td><td>Ticket lifecycle management, live Windows forensics</td><td><code>AlienVault OSSIM</code> <code>Live-Forensicator</code></td></tr>
+<tr><td>16</td><td><a href="./M16-Incident%20Response%20and%20Forensic%20Investigation/">Incident Response & Forensics Investigation</a></td><td>Ticket lifecycle management, live Windows forensics</td><td><code>AlienVault OSSIM</code> <code>Live-Forensicator</code></td></tr>
 
-<tr><td>17</td><td><a href="./Module-17-Business-Continuity-DR/">Business Continuity & Disaster Recovery</a></td><td>Load-balanced failover clustering and recovery validation</td><td><code>Windows NLB</code></td></tr>
+<tr><td>17</td><td><a href="./M17-Business%20Continuity%20and%20Disaster%20Recovery/">Business Continuity & Disaster Recovery</a></td><td>Load-balanced failover clustering and recovery validation</td><td><code>Windows NLB</code></td></tr>
 
-<tr><td>18</td><td><a href="./Module-18-Vulnerability-Management/">Vulnerability Management & Risk Anticipation</a></td><td>Vulnerability scanning, DAST testing, compliance auditing</td><td><code>OWASP ZAP</code> <code>OpenSCAP/SCC</code> <code>Nessus</code></td></tr>
+<tr><td>18</td><td><a href="./M18-Risk%20Anticipation%20with%20Risk%20Management/">Vulnerability Management & Risk Anticipation</a></td><td>Vulnerability scanning, DAST testing, compliance auditing</td><td><code>OWASP ZAP</code> <code>OpenSCAP/SCC</code> <code>Nessus</code></td></tr>
 
-<tr><td>19</td><td><a href="./Module-19-Attack-Surface-Analysis/">Attack Surface Analysis & Threat Assessment</a></td><td>OS and web application attack surface mapping</td><td><code>MS Attack Surface Analyzer</code> <code>ZAP Attack Surface Detector</code></td></tr>
+<tr><td>19</td><td><a href="./M19-Threat%20Assessment%20with%20Attack%20Surface%20Analysis/">Attack Surface Analysis & Threat Assessment</a></td><td>OS and web application attack surface mapping</td><td><code>MS Attack Surface Analyzer</code> <code>ZAP Attack Surface Detector</code></td></tr>
 
-<tr><td>20</td><td><a href="./Module-20-Threat-Intelligence-Hunting/">Threat Intelligence & Proactive Threat Hunting</a></td><td>Threat feed integration, YARA-based IOC hunting</td><td><code>AlienVault OTX</code> <code>YARA</code></td></tr>
+<tr><td>20</td><td><a href="./M20-Threat%20Prediction%20With%20Cyber%20Threat%20Intelligence/">Threat Intelligence & Proactive Threat Hunting</a></td><td>Threat feed integration, YARA-based IOC hunting</td><td><code>AlienVault OTX</code> <code>YARA</code></td></tr>
 
 </table>
 
