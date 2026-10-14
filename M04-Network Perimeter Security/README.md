@@ -30,7 +30,7 @@
 
 ## Executive Summary
 
-Module 4 completes a three-part lab series by adding a **perimeter security layer** to the environment built in **[Module 2](../Module-02-Active-Directory/)** and **[Module 3](../Module-03-Technical-Network-Security/)**. **pfSense** is deployed as the edge firewall and default gateway for every virtual machine, replacing previously unconfigured gateways so that all network traffic is subject to centrally enforced firewall rules.
+Module 4 completes a three-part lab series by adding a **perimeter security layer** to the environment built in **[Module 2](../M02-Administrative%20Network%20Security/)** and **[Module 3](../M03-Technical%20Network%20Security/)**. **pfSense** is deployed as the edge firewall and default gateway for every virtual machine, replacing previously unconfigured gateways so that all network traffic is subject to centrally enforced firewall rules.
 
 Firewall rules were configured to block ICMP and RDP from the client workstation to the domain controller while explicitly permitting essential Active Directory services. Suricata on IDS01 was extended with new detection rules covering SQL injection, XSS, brute force, and LLMNR poisoning, and the SoftEther VPN on VPN01 was validated to continue functioning correctly through the new gateway. An **eight-scenario attack simulation** from ATTACK01 confirmed every control holds: firewall rules block restricted traffic, the IDS detects application-layer attacks, account lockout stops brute force, and LLMNR poisoning fails thanks to the Module 3 GPO.
 
